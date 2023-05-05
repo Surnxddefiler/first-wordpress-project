@@ -1,0 +1,80 @@
+/*
+Theme name: logoipsum
+*/
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+body{
+    font-family: 'Futura PT', sans-serif;
+}
+.header{
+    background-color: #96175d;
+}
+.title{
+    color: #96175d;
+}
+.headerMenu{
+    display: flex;
+}
+.nav li a{
+    color: #808285;
+    text-decoration: none;
+}
+.nav li a:hover{
+    cursor: pointer;
+}
+.intro{
+    background-color: #B2BB1C;
+}
+.text{
+        color: #808285;
+}
+.marketplace{
+    background-color: #008DA8;
+}
+.footer{
+    background-color:#3F4042;
+}
+.footerNav{
+    color: #ffffff;
+    text-decoration: none; 
+}
+.footerNav{
+    list-style: none;
+}
+.footerNav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footerNav li a:hover{
+    cursor: pointer;
+}
+.button{
+    background-color: #71CEF5;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.block{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.input{
+    background-color: RGBA(255,255,255,0.75 );
+    border: 0;
+    outline: 0;
+}
+.bottom{
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+}
+@media (max-width: 425px){
+
+    .slider{
+        height: 300px;
+    }
+}
+@media (max-width: 1024px){
+    .bottom{
+        bottom: 0;
+        transform: translate(0%,0%)
+    }
+}
